@@ -10,6 +10,7 @@ Chat SaaS is a modern, full-stack web application designed as a showcase for my 
 
 - **Multi-Page Chat Experience:** Organize conversations, knowledge, and discussions in a clean, intuitive interface.
 - **Authentication Flows:** Includes sign-in and sign-up pages for user management.
+- **Conversation Persistance:** Backup system developped with a MongoDB Cluster.
 - **Reusable UI Components:** Custom-built UI elements (buttons, cards, forms, tooltips, etc.) for a consistent and modern look using Shadcn.
 - **AI Elements:** Components for chatbot interactions, code blocks, reasoning chains, and more using AI SDK's AI Elements
 - **API-Ready Structure:** Modular API routes for easy backend integration and extension.
@@ -21,6 +22,7 @@ Chat SaaS is a modern, full-stack web application designed as a showcase for my 
 - Next.js (App Router)
 - TypeScript
 - React
+- MongoDB
 - PostCSS
 - Docker
 - pnpm
@@ -35,6 +37,11 @@ Chat SaaS is a modern, full-stack web application designed as a showcase for my 
 - `src/components/` – UI and AI components
 - `src/lib/` – Utility functions
 - `public/` – Static assets
+
+### Setup
+
+You must have a MongoDB connection string, an OpenAI API key and a Perplexity API Key.
+Fill the blanks in the .env.exemple file and then remove the .exemple at the end.
 
 ### How to Run
 
@@ -59,6 +66,7 @@ Chat SaaS est une application web moderne, full-stack, conçue comme projet de p
 - **Expérience de chat multi-pages :** Organisation des conversations, connaissances et discussions dans une interface claire et intuitive.
 - **Authentification :** Pages d’inscription et de connexion pour la gestion des utilisateurs.
 - **Composants UI réutilisables :** Éléments d’interface personnalisés (boutons, cartes, formulaires, info-bulles, etc.) pour un rendu moderne et cohérent.
+- **Persistance des Conversations:** Enregistrement des conversation sur MongoDB avec génération de titre.
 - **Éléments IA :** Composants pour interactions chatbot, blocs de code, chaînes de raisonnement, et plus.
 - **Structure API-ready :** Routes API modulaires pour une intégration et une extension backend faciles.
 - **Design responsive :** Optimisé pour ordinateurs et mobiles.
@@ -69,9 +77,14 @@ Chat SaaS est une application web moderne, full-stack, conçue comme projet de p
 - Next.js (App Router)
 - TypeScript
 - React
+- MongoDB
 - PostCSS
 - Docker
 - pnpm
+- Shadcn
+- AI SDK
+- Shadcn
+- Clerk
 
 ### Structure du projet
 
@@ -79,6 +92,11 @@ Chat SaaS est une application web moderne, full-stack, conçue comme projet de p
 - `src/components/` – Composants UI et IA
 - `src/lib/` – Fonctions utilitaires
 - `public/` – Fichiers statiques
+
+### Setup
+
+Vous devez avoir une chaine de connexion MongoDB, une cké d'api OpenAI et ue clé d'api Perplexity.
+Remplissez les champs vides dans le fichier .env.exemple, puis retirer le .exemple du nom.
 
 ### Démarrage
 
