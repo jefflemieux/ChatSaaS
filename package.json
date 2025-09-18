@@ -7,7 +7,6 @@
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint",
-    "docker": "docker buildx build -t jflem47/sq-ai --platform=linux/amd64 --push ."
   },
   "dependencies": {
     "@ai-sdk/openai": "^2.0.27",
